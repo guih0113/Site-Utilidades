@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(64, 32, 124);
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    font-size: 1rem;
+}
+
+.links, .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    border-radius: 50%;
+    height: 45px;
+}
+
+.logo{
+    height: 35px;
+}
+
+.logo:hover{
+    opacity: 0.7;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0 2.5rem;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.link:hover{
+    opacity: 0.8;
+}
+
+.icon{
+    padding: 0 1rem;
+    margin: 0;
+    color: white;
+}
+
+nav{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 12px;
+}
+
+.section1, .section2{
+    height: 100vh;
+}
+
+.section1{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    width: 100%;
+    align-content: center;
+}
+
+.time {
+    font-size: 60px;
+    text-align: center;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+.section2{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 6px solid rgb(64, 32, 124);
+}
+
+.calculator {
+    width: 310px;
+    height: 470px;
+    background-color: black;
+    border-radius: 15px;
+    padding:20px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.display1 {
+    width: 100%;
+    text-align: center;
+}
+
+.display {
+    width: 91%;
+    height: 66px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 28px;
+    background-color: black;
+    color: white;
+}
+
+.buttons {
+    display: inline-table;
+    width: 100%;
+    text-align: center;
+}
+
+#zero {
+    width: 130px;
+    border-radius: 30px;
+    padding: 16px 30px ;
+    text-align: left;
+    margin-right: 5px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #333333;
+    color: white;
+}
+
+button:hover {
+    background-color: #a6a6a2;
+}
+
+.operator, .equal {
+    background-color: #F1A33B;
+}
+
+.operator:hover, .equal:hover {
+    background-color: #e3c586;
+}
+
+.clear {
+    background-color: #A5A5A5;
+    color: white;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.clear:hover {
+    background-color: #888888;
+}
+
+.section3{
+    display: flow-root;
+    background-color:lightgray;
+    border-top: 6px solid rgb(64, 32, 124);
+}
+
+.ref{
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.section3 h1{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caixa-sobre{
+    width: 95%;
+    display: flex;
+    justify-content: right;
+}
+
+.sobre{
+    text-align: left;
+    border: 6px inset rgb(64, 32, 124);
+    margin-top: 90px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+
+section p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+
+
